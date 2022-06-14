@@ -1,0 +1,39 @@
+:root {
+    --bg: #FFFFFF;
+    --basic: #000000;
+    --blue: #0087C9;
+    --orange: #FFB168;
+    --lightgrey: #D9D9D9;
+    --grey: #A3A3A3;
+    --steel: #4C5868;
+    /* font-sizes */
+    --f-xs: 11px;
+    --f-sm: 14px;
+    --f-md: 15px;
+    --f-lg: 16px;
+    --f-xl: 20px;
+}
+
+input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type="number"], input[type="number"]:hover, input[type="number"]:focus {
+    appearance: none;
+    -moz-appearance: textfield;
+}
+
+.app-wrapper {
+    display: flex;
+}
+
+.icon {
+    position: absolute;
+    top: -5px;
+    left: -25px;
+    display: inline-flex;
+    width: 25px;
+    height: 25px;
+    transform: scale(0.8);
+    object-fit: contain;
+}

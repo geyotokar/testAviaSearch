@@ -1,0 +1,58 @@
+/* CONTAINERS */
+
+aside {
+    height: 100vh;
+    width: 25%;
+    background-color: var(--lightgrey);
+}
+
+.sorting__container {
+    margin-top: 20px;
+    padding: 20px 20px 40px 20px;
+    background-color: var(--bg);
+}
+/* UNITS */
+
+.s__items {
+    display: flex;
+    flex-direction: column;
+}
+
+.s__price {
+    border: solid 1px var(--grey);
+    border-radius: 3px;
+}
+
+.s__price:first-child {
+    margin-bottom: 10px;
+}
+
+.s__price:last-child {
+    margin-top: 10px;
+}
+
+/* MICRO COMPONENTS */
+
+h4 {
+    margin: 0;
+    padding: 20px 0;
+    color: var(--steel);
+}
+
+label, .s__airline__price {
+    color: var(--steel);
+}
+
+.row {
+    display: flex;
+}
+.s__airline__label {
+    width: 150px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.s__airline__price {
+    padding-left: 5px;
+}

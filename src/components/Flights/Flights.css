@@ -1,0 +1,140 @@
+/* CONTAINERS */
+.flight__container{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.flight {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px 20px 10px 20px;
+    width: 640px;
+    background-color: var(--blue);
+}
+
+/* UNITS */
+.f__header, .f__segment, .f__submit {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
+}
+
+.f__header {
+    margin: 0 -20px;
+    height: 40px;
+    text-align: right;
+}
+
+.f__segment {
+    margin-top: 3px;
+    background-color: var(--bg);
+}
+
+.f__submit {
+    align-items: center;
+    height: 40px;
+    border: none;
+    font-weight: 600;
+    background-color: var(--orange);
+}
+
+.f__more {
+    margin: 5px auto;
+    width: 200px;
+}
+
+/* MICRO COMPONENTS */
+
+/* display and position*/
+.blue_text, .orange_text, .f__segment__destination, .f__segment__departure_time, .f__segment__departure_duration {
+    display:inline;
+}
+.f__header__logo {
+    position: absolute;
+    left: 40px;
+}
+
+/* font-colors */
+.blue_text { color: var(--blue) }
+.orange_text { color: var(--orange) }
+.f__header__logo, .f__header__price, .f__header__notice, .f__submit { color: var(--bg) }
+
+/* font-sizes */
+.f__header__notice {
+    font-size: var(--f-xs);
+    font-weight: 600;
+}
+.blue_text, .orange_text, .f__segment__airline {
+    font-size: var(--f-sm);
+}
+.f__segment__departure_duration, .f__submit, .f__more {
+    font-size: var(--f-md);
+}
+.f__segment__destination, .f__segment__departure_time {
+    font-size: var(--f-lg);
+}
+.f__header__price, .f__header__logo {
+    font-size: var(--f-xl);
+    font-weight: 600;
+}
+
+/* etc */
+
+.f__segment__destination, .f__segment__departure {
+    margin: 0 10px;
+    padding: 10px 0;
+}
+.f__segment__destination {
+    padding: 10px;
+    border-bottom: solid 1px var(--lightgrey);
+}
+
+.f__segment__departure {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 0 10px;
+}
+
+.f__segment__departure_duration {
+    position: relative;
+}
+
+.f__segment__transfer, .line {
+    position: relative;
+    margin: 0 50px;
+    text-align: center;
+}
+.f__segment__transfer:after, .f__segment__transfer:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    width: 220px;
+    border-bottom: solid 1px var(--grey);
+}
+
+.f__segment__transfer:after {right: 0}
+
+.f__segment__airline {
+    margin: 0 10px;
+    padding: 10px;
+}
+
+.line {
+    padding-top: 15px;
+}
+
+.line:after, .line:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    width: 300px;
+    border-bottom: solid 1px var(--grey);
+}
