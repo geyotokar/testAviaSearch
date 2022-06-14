@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/testAviaSearch/static/css/main.b3fa3995.chunk.css",
+    "main.js": "/testAviaSearch/static/js/main.185790ee.chunk.js",
+    "main.js.map": "/testAviaSearch/static/js/main.185790ee.chunk.js.map",
+    "runtime-main.js": "/testAviaSearch/static/js/runtime-main.8536e4fa.js",
+    "runtime-main.js.map": "/testAviaSearch/static/js/runtime-main.8536e4fa.js.map",
+    "static/js/2.3d50d216.chunk.js": "/testAviaSearch/static/js/2.3d50d216.chunk.js",
+    "static/js/2.3d50d216.chunk.js.map": "/testAviaSearch/static/js/2.3d50d216.chunk.js.map",
+    "static/js/3.7d48de3b.chunk.js": "/testAviaSearch/static/js/3.7d48de3b.chunk.js",
+    "static/js/3.7d48de3b.chunk.js.map": "/testAviaSearch/static/js/3.7d48de3b.chunk.js.map",
+    "index.html": "/testAviaSearch/index.html",
+    "static/css/main.b3fa3995.chunk.css.map": "/testAviaSearch/static/css/main.b3fa3995.chunk.css.map",
+    "static/js/2.3d50d216.chunk.js.LICENSE.txt": "/testAviaSearch/static/js/2.3d50d216.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8536e4fa.js",
+    "static/js/2.3d50d216.chunk.js",
+    "static/css/main.b3fa3995.chunk.css",
+    "static/js/main.185790ee.chunk.js"
+  ]
+}
