@@ -15,3 +15,5 @@ View the deployed project: [https://geyotokar.github.io/testAviaSearch/](https:/
 ![Formik](https://img.shields.io/badge/-Formik-656D78?style=for-the-badge)
 ![hooks](https://img.shields.io/badge/-hooks-C0EB6A?style=for-the-badge)
 ![flexBox](https://img.shields.io/badge/-flexBox-7A1FA2?style=for-the-badge)
+![sorting](https://img.shields.io/badge/-sorting-00A98F?style=for-the-badge) 
+![filter](https://img.shields.io/badge/-filter-00A98F?style=for-the-badge) 
